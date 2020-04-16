@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en, pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius Prev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Border Radius CSS Preview</h1>
+    </header>
+    <section>
+        <div id="externo">
+            <input type="text" id="top-left" onchange="topL()">
+            <input type="text" id="top-right" onchange="topR()">
+            <input type="text" id="bottom-right" onchange="bottomR()">
+            <input type="text" id="bottom-left" onchange="bottomL()">
+            <button id="copy" onclick="copyCSS()">Get the CSS code of this box</button>
+            <div id="interno">
+                <textarea id="text" cols="35" rows="10" readonly></textarea>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p><a href="https://github.com/rs9789">&copy;Rodrigo</a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
