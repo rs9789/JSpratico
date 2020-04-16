@@ -1,0 +1,46 @@
+body {
+    background: #46E857;
+    font: Times 16pt;
+}
+
+header {
+    text-align: center;
+    color: rgb(96, 138, 41);
+    text-shadow: 0px 0px 10px rgba(252, 252, 252, 0.808);
+}
+
+section div {
+    margin: auto;
+    width: 60%;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.418);
+    border-radius: 8px;
+    padding: 10px 10px;
+    text-align: center;
+    position: relative;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #7DFF59;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.212);
+    height: 13%;
+}
+
+button:hover {
+    background-color: rgba(125, 255, 89, 0.589);
+    transition: 0.5s;
+}
+
+.dec,
+.bin {
+    width: 50%;
+    height: 10%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+}
